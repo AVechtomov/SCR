@@ -1,3 +1,3 @@
 # SCR
-Shopping Centres Russia
+Shopping Centers Russia
 
