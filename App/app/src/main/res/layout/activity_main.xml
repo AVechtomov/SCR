@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_material_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiple_actions"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        fab:fab_addButtonColorNormal="#fafafa"
+        fab:fab_addButtonColorPressed="#f1f1f1"
+        fab:fab_addButtonPlusIconColor="#808080">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_a"
+            fab:fab_icon="@drawable/abc_btn_default_mtrl_shape"
+            fab:fab_colorNormal="#e91e63"
+            fab:fab_colorPressed="#ec407a"
+            fab:fab_size="normal"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_b"
+            fab:fab_icon="@drawable/abc_btn_default_mtrl_shape"
+            fab:fab_colorNormal="#ff5ae9e0"
+            fab:fab_colorPressed="#ec407a"
+            fab:fab_size="normal"
+            />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+</RelativeLayout>
